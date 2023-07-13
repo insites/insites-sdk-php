@@ -48,6 +48,7 @@ class ReportSpellingsRequest extends AbstractRequest
     public function execute(): ReportSpellingsResponse
     {
         $httpResponse = $this->httpWrapper->execute($this);
+        $response = $httpResponse->getResponse();
 
         if ($httpResponse->getStatusCode() === 404) {
             throw new ReportNotFoundException($response['error_message'] ?? 'Report not found');
