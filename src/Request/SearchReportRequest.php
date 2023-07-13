@@ -1,9 +1,9 @@
 <?php
 
-namespace Insites\ApiClient\Request;
+namespace Insites\SDK\Request;
 
-use Insites\ApiClient\Exception\Api\InvalidRequestException;
-use Insites\ApiClient\Response\SearchReportResponse;
+use Insites\SDK\Exception\Api\InvalidRequestException;
+use Insites\SDK\Response\SearchReportResponse;
 
 class SearchReportRequest extends AbstractRequest
 {

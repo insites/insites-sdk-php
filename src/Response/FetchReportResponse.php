@@ -1,10 +1,10 @@
 <?php
 
-namespace Insites\ApiClient\Response;
+namespace Insites\SDK\Response;
 
-use Insites\ApiClient\Entity\Report;
-use Insites\ApiClient\Entity\ReportCategory;
-use Insites\ApiClient\Entity\ReportPercentile;
+use Insites\SDK\Entity\Report;
+use Insites\SDK\Entity\ReportCategory;
+use Insites\SDK\Entity\ReportPercentile;
 
 class FetchReportResponse extends AbstractResponse
 {

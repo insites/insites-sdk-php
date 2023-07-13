@@ -1,6 +1,6 @@
 <?php
 
-namespace Insites\ApiClient\Entity;
+namespace Insites\SDK\Entity;
 
 class ReportCategory
 {

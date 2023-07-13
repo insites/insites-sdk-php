@@ -1,8 +1,8 @@
 <?php
 
-namespace Insites\ApiClient\Response;
+namespace Insites\SDK\Response;
 
-use Insites\ApiClient\Entity\ReportSetting;
+use Insites\SDK\Entity\ReportSetting;
 
 class ReportSettingsResponse extends AbstractResponse
 {

@@ -1,14 +1,14 @@
 <?php
 
-namespace Insites\ApiClient\Api;
+namespace Insites\SDK\Api;
 
-use Insites\ApiClient\Request\CreateReportRequest;
-use Insites\ApiClient\Request\FetchReportRequest;
-use Insites\ApiClient\Request\ReanalyzeReportRequest;
-use Insites\ApiClient\Request\ReportSettingsRequest;
-use Insites\ApiClient\Request\ReportSpellingsRequest;
-use Insites\ApiClient\Request\SearchReportRequest;
-use Insites\ApiClient\Http\HttpWrapper;
+use Insites\SDK\Request\CreateReportRequest;
+use Insites\SDK\Request\FetchReportRequest;
+use Insites\SDK\Request\ReanalyzeReportRequest;
+use Insites\SDK\Request\ReportSettingsRequest;
+use Insites\SDK\Request\ReportSpellingsRequest;
+use Insites\SDK\Request\SearchReportRequest;
+use Insites\SDK\Http\HttpWrapper;
 
 class ReportApi
 {

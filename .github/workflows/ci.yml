@@ -1,3 +1,4 @@
+name: "Insites SDK"
 on:
   release:
     types:

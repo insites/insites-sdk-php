@@ -1,9 +1,9 @@
 <?php
 
-namespace Insites\ApiClient\Http;
+namespace Insites\SDK\Http;
 
 use Psr\Http\Message\ResponseInterface;
-use Insites\ApiClient\Exception\Api\InvalidServerResponseException;
+use Insites\SDK\Exception\Api\InvalidServerResponseException;
 
 class HttpResponse
 {

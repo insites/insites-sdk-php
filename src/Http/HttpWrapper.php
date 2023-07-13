@@ -1,11 +1,11 @@
 <?php
 
-namespace Insites\ApiClient\Http;
+namespace Insites\SDK\Http;
 
 use GuzzleHttp\Client as GuzzleClient;
 use GuzzleHttp\Psr7\Uri;
 use GuzzleHttp\RequestOptions;
-use Insites\ApiClient\Request\AbstractRequest;
+use Insites\SDK\Request\AbstractRequest;
 
 class HttpWrapper
 {

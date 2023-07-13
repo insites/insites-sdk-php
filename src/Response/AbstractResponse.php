@@ -1,6 +1,6 @@
 <?php
 
-namespace Insites\ApiClient\Response;
+namespace Insites\SDK\Response;
 
 abstract class AbstractResponse
 {
