@@ -1,10 +1,10 @@
 <?php
 
-namespace Silktide\ProspectClient\Request;
+namespace Insites\ApiClient\Request;
 
-use Silktide\ProspectClient\Exception\Api\ReportNotFoundException;
-use Silktide\ProspectClient\Http\HttpWrapper;
-use Silktide\ProspectClient\Response\FetchReportResponse;
+use Insites\ApiClient\Exception\Api\ReportNotFoundException;
+use Insites\ApiClient\Http\HttpWrapper;
+use Insites\ApiClient\Response\FetchReportResponse;
 
 class FetchReportRequest extends AbstractRequest
 {
@@ -63,6 +63,7 @@ class FetchReportRequest extends AbstractRequest
     public function execute(): FetchReportResponse
     {
         $httpResponse = $this->httpWrapper->execute($this);
+        $response = $httpResponse->getResponse();
 
         if ($httpResponse->getStatusCode() === 404) {
             throw new ReportNotFoundException($response['error_message'] ?? 'Report not found');

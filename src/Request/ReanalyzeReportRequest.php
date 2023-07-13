@@ -1,10 +1,10 @@
 <?php
 
-namespace Silktide\ProspectClient\Request;
+namespace Insites\ApiClient\Request;
 
-use Silktide\ProspectClient\Exception\Api\ReportNotFoundException;
-use Silktide\ProspectClient\Http\HttpWrapper;
-use Silktide\ProspectClient\Response\ReanalyzeReportResponse;
+use Insites\ApiClient\Exception\Api\ReportNotFoundException;
+use Insites\ApiClient\Http\HttpWrapper;
+use Insites\ApiClient\Response\ReanalyzeReportResponse;
 
 class ReanalyzeReportRequest extends AbstractRequest
 {

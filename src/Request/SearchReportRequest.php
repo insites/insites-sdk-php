@@ -1,9 +1,9 @@
 <?php
 
-namespace Silktide\ProspectClient\Request;
+namespace Insites\ApiClient\Request;
 
-use Silktide\ProspectClient\Exception\Api\InvalidRequestException;
-use Silktide\ProspectClient\Response\SearchReportResponse;
+use Insites\ApiClient\Exception\Api\InvalidRequestException;
+use Insites\ApiClient\Response\SearchReportResponse;
 
 class SearchReportRequest extends AbstractRequest
 {

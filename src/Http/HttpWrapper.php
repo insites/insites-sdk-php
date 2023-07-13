@@ -1,16 +1,16 @@
 <?php
 
-namespace Silktide\ProspectClient\Http;
+namespace Insites\ApiClient\Http;
 
 use GuzzleHttp\Client as GuzzleClient;
 use GuzzleHttp\Psr7\Uri;
 use GuzzleHttp\RequestOptions;
-use Silktide\ProspectClient\Request\AbstractRequest;
+use Insites\ApiClient\Request\AbstractRequest;
 
 class HttpWrapper
 {
     protected string $scheme = 'https';
-    protected string $host = 'api.prospect.silktide.com';
+    protected string $host = 'api.insites.com';
     protected string $pathVersion = '/api/v1/';
 
     private string $apiKey;

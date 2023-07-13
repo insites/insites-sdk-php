@@ -1,10 +1,10 @@
 <?php
-namespace Silktide\ProspectClient\Request;
+namespace Insites\ApiClient\Request;
 
 use DateTimeInterface;
-use Silktide\ProspectClient\Exception\Api\ReportAlreadyExistsException;
-use Silktide\ProspectClient\Exception\Api\ReportUnprocessableException;
-use Silktide\ProspectClient\Response\CreateReportResponse;
+use Insites\ApiClient\Exception\Api\ReportAlreadyExistsException;
+use Insites\ApiClient\Exception\Api\ReportUnprocessableException;
+use Insites\ApiClient\Response\CreateReportResponse;
 
 class CreateReportRequest extends AbstractRequest
 {
@@ -47,7 +47,7 @@ class CreateReportRequest extends AbstractRequest
     }
 
     /**
-     * Prospect will make a POST callback to this URL with the JSON report data.
+     * Insites will make a POST callback to this URL with the JSON report data.
      *
      * @param string $uri
      * @return $this

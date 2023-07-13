@@ -1,10 +1,10 @@
 <?php
 
-namespace Silktide\ProspectClient\Exception\Api;
+namespace Insites\ApiClient\Exception\Api;
 
-use Silktide\ProspectClient\Exception\ProspectClientException;
+use Insites\ApiClient\Exception\ClientException;
 
-class ReportAlreadyExistsException extends ProspectClientException
+class ReportAlreadyExistsException extends ClientException
 {
     protected string $reportId;
     protected ?string $resolvedUrl;

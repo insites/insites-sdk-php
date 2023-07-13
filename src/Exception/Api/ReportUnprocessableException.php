@@ -1,10 +1,10 @@
 <?php
 
-namespace Silktide\ProspectClient\Exception\Api;
+namespace Insites\ApiClient\Exception\Api;
 
-use Silktide\ProspectClient\Exception\ProspectClientException;
+use Insites\ApiClient\Exception\ClientException;
 
-class ReportUnprocessableException extends ProspectClientException
+class ReportUnprocessableException extends ClientException
 {
     private ?string $issue = null;
     private ?string $url = null;

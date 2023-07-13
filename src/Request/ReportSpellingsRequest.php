@@ -1,10 +1,10 @@
 <?php
 
-namespace Silktide\ProspectClient\Request;
+namespace Insites\ApiClient\Request;
 
-use Silktide\ProspectClient\Exception\Api\ReportNotFoundException;
-use Silktide\ProspectClient\Http\HttpWrapper;
-use Silktide\ProspectClient\Response\ReportSpellingsResponse;
+use Insites\ApiClient\Exception\Api\ReportNotFoundException;
+use Insites\ApiClient\Http\HttpWrapper;
+use Insites\ApiClient\Response\ReportSpellingsResponse;
 
 class ReportSpellingsRequest extends AbstractRequest
 {
@@ -17,7 +17,7 @@ class ReportSpellingsRequest extends AbstractRequest
         $this->reportId = $reportId;
     }
 
-    public function addWord(string $word, string $language = 'en_GB', $caseSensitive = false): self
+    public function addWord(string $word, string $language = 'en_GB', bool $caseSensitive = false): self
     {
         $this->method = 'POST';
 
@@ -48,6 +48,7 @@ class ReportSpellingsRequest extends AbstractRequest
     public function execute(): ReportSpellingsResponse
     {
         $httpResponse = $this->httpWrapper->execute($this);
+        $response = $httpResponse->getResponse();
 
         if ($httpResponse->getStatusCode() === 404) {
             throw new ReportNotFoundException($response['error_message'] ?? 'Report not found');

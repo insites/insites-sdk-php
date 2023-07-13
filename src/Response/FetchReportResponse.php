@@ -1,10 +1,10 @@
 <?php
 
-namespace Silktide\ProspectClient\Response;
+namespace Insites\ApiClient\Response;
 
-use Silktide\ProspectClient\Entity\Report;
-use Silktide\ProspectClient\Entity\ReportCategory;
-use Silktide\ProspectClient\Entity\ReportPercentile;
+use Insites\ApiClient\Entity\Report;
+use Insites\ApiClient\Entity\ReportCategory;
+use Insites\ApiClient\Entity\ReportPercentile;
 
 class FetchReportResponse extends AbstractResponse
 {
