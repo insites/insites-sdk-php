@@ -1,9 +1,9 @@
 <?php
 
-namespace Insites\ApiClient\Request;
+namespace Insites\SDK\Request;
 
-use Insites\ApiClient\Http\HttpWrapper;
-use Insites\ApiClient\Response\AbstractResponse;
+use Insites\SDK\Http\HttpWrapper;
+use Insites\SDK\Response\AbstractResponse;
 
 abstract class AbstractRequest
 {

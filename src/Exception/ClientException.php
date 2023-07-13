@@ -1,6 +1,6 @@
 <?php
 
-namespace Insites\ApiClient\Exception;
+namespace Insites\SDK\Exception;
 
 use RuntimeException;
 

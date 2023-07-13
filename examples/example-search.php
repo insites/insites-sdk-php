@@ -2,8 +2,8 @@
 require __DIR__ . "/../vendor/autoload.php";
 
 use Symfony\Component\Dotenv\Dotenv;
-use Insites\ApiClient\Client;
-use Insites\ApiClient\Request\SearchReportRequest;
+use Insites\SDK\Client;
+use Insites\SDK\Request\SearchReportRequest;
 
 $envFile = __DIR__ . "/../.env";
 if (file_exists($envFile)) {

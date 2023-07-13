@@ -1,10 +1,10 @@
 <?php
-namespace Insites\ApiClient\Request;
+namespace Insites\SDK\Request;
 
 use DateTimeInterface;
-use Insites\ApiClient\Exception\Api\ReportAlreadyExistsException;
-use Insites\ApiClient\Exception\Api\ReportUnprocessableException;
-use Insites\ApiClient\Response\CreateReportResponse;
+use Insites\SDK\Exception\Api\ReportAlreadyExistsException;
+use Insites\SDK\Exception\Api\ReportUnprocessableException;
+use Insites\SDK\Response\CreateReportResponse;
 
 class CreateReportRequest extends AbstractRequest
 {

@@ -9,7 +9,7 @@ Example usage
 ```php
 // The actual API key needs to be created at https://app.insites.com/en_GB/admin/settings#/api
 $apiKey = "0123456789abcdef";
-$insitesClient = \Insites\ApiClient\Client::createFromApiKey($apiKey);
+$insitesClient = \Insites\SDK\Client::createFromApiKey($apiKey);
 $reportApi = $insitesClient->getReportApi();
 ```
 

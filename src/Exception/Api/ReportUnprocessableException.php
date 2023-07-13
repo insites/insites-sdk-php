@@ -1,8 +1,8 @@
 <?php
 
-namespace Insites\ApiClient\Exception\Api;
+namespace Insites\SDK\Exception\Api;
 
-use Insites\ApiClient\Exception\ClientException;
+use Insites\SDK\Exception\ClientException;
 
 class ReportUnprocessableException extends ClientException
 {

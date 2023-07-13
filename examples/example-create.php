@@ -3,7 +3,7 @@
 require __DIR__ . "/../vendor/autoload.php";
 
 use Symfony\Component\Dotenv\Dotenv;
-use Insites\ApiClient\Client;
+use Insites\SDK\Client;
 
 $envFile = __DIR__ . "/../.env";
 if (file_exists($envFile)) {

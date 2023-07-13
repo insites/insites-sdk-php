@@ -22,12 +22,7 @@
 	],
 	"autoload": {
 		"psr-4": {
-			"Insites\\ApiClient\\": "src"
-		}
-	},
-	"autoload-dev": {
-		"psr-4": {
-			"Insites\\ApiClient\\UnitTest\\": "test/unit"
+			"Insites\\SDK\\": "src"
 		}
 	}
 }

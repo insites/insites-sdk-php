@@ -1,10 +1,10 @@
 <?php
 
-namespace Insites\ApiClient\Request;
+namespace Insites\SDK\Request;
 
-use Insites\ApiClient\Exception\Api\ReportNotFoundException;
-use Insites\ApiClient\Http\HttpWrapper;
-use Insites\ApiClient\Response\ReportSpellingsResponse;
+use Insites\SDK\Exception\Api\ReportNotFoundException;
+use Insites\SDK\Http\HttpWrapper;
+use Insites\SDK\Response\ReportSpellingsResponse;
 
 class ReportSpellingsRequest extends AbstractRequest
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Insites\ApiClient;
+namespace Insites\SDK;
 
-use Insites\ApiClient\Api\ReportApi;
-use Insites\ApiClient\Http\HttpWrapper;
+use Insites\SDK\Api\ReportApi;
+use Insites\SDK\Http\HttpWrapper;
 
 class Client
 {
