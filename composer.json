@@ -1,5 +1,5 @@
 {
-	"name": "insites/api-client",
+	"name": "insites/insites-sdk-php",
 	"description": "PHP client for integrating Insites into your projects.",
 	"require": {
 		"php": "^7.4|^8",
