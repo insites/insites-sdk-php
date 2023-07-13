@@ -39,12 +39,12 @@ class ReportApi
         return new SearchReportRequest($this->httpWrapper);
     }
 
-    public function settings(string $reportId)
+    public function settings(string $reportId): ReportSettingsRequest
     {
         return new ReportSettingsRequest($this->httpWrapper, $reportId);
     }
 
-    public function spellings(string $reportId)
+    public function spellings(string $reportId): ReportSpellingsRequest
     {
         return new ReportSpellingsRequest($this->httpWrapper, $reportId);
     }
