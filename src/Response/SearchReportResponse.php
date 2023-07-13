@@ -1,8 +1,8 @@
 <?php
 
-namespace Silktide\ProspectClient\Response;
+namespace Insites\ApiClient\Response;
 
-use Silktide\ProspectClient\Entity\Report;
+use Insites\ApiClient\Entity\Report;
 
 class SearchReportResponse extends AbstractResponse
 {

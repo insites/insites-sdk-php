@@ -1,11 +1,11 @@
 <?php
 
-namespace Silktide\ProspectClient\Request;
+namespace Insites\ApiClient\Request;
 
-use Silktide\ProspectClient\Exception\Api\ReportNotFoundException;
-use Silktide\ProspectClient\Http\HttpWrapper;
-use Silktide\ProspectClient\Response\AbstractResponse;
-use Silktide\ProspectClient\Response\ReportSettingsResponse;
+use Insites\ApiClient\Exception\Api\ReportNotFoundException;
+use Insites\ApiClient\Http\HttpWrapper;
+use Insites\ApiClient\Response\AbstractResponse;
+use Insites\ApiClient\Response\ReportSettingsResponse;
 
 class ReportSettingsRequest extends AbstractRequest
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Silktide\ProspectClient\Request;
+namespace Insites\ApiClient\Request;
 
-use Silktide\ProspectClient\Http\HttpWrapper;
-use Silktide\ProspectClient\Response\AbstractResponse;
+use Insites\ApiClient\Http\HttpWrapper;
+use Insites\ApiClient\Response\AbstractResponse;
 
 abstract class AbstractRequest
 {

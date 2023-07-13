@@ -1,6 +1,6 @@
 <?php
 
-namespace Silktide\ProspectClient\Response;
+namespace Insites\ApiClient\Response;
 
 class ReanalyzeReportResponse extends AbstractResponse
 {

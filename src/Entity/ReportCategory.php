@@ -1,6 +1,6 @@
 <?php
 
-namespace Silktide\ProspectClient\Entity;
+namespace Insites\ApiClient\Entity;
 
 class ReportCategory
 {

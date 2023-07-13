@@ -1,14 +1,14 @@
 <?php
 
-namespace Silktide\ProspectClient\Api;
+namespace Insites\ApiClient\Api;
 
-use Silktide\ProspectClient\Request\CreateReportRequest;
-use Silktide\ProspectClient\Request\FetchReportRequest;
-use Silktide\ProspectClient\Request\ReanalyzeReportRequest;
-use Silktide\ProspectClient\Request\ReportSettingsRequest;
-use Silktide\ProspectClient\Request\ReportSpellingsRequest;
-use Silktide\ProspectClient\Request\SearchReportRequest;
-use Silktide\ProspectClient\Http\HttpWrapper;
+use Insites\ApiClient\Request\CreateReportRequest;
+use Insites\ApiClient\Request\FetchReportRequest;
+use Insites\ApiClient\Request\ReanalyzeReportRequest;
+use Insites\ApiClient\Request\ReportSettingsRequest;
+use Insites\ApiClient\Request\ReportSpellingsRequest;
+use Insites\ApiClient\Request\SearchReportRequest;
+use Insites\ApiClient\Http\HttpWrapper;
 
 class ReportApi
 {

@@ -1,7 +1,7 @@
 <?php
 
-namespace Silktide\ProspectClient\Exception\Api;
+namespace Insites\ApiClient\Exception\Api;
 
-use Silktide\ProspectClient\Exception\ProspectClientException;
+use Insites\ApiClient\Exception\ClientException;
 
-class ReportNotFoundException extends ProspectClientException {}
+class ReportNotFoundException extends ClientException {}
