@@ -17,7 +17,7 @@ class ReportSpellingsRequest extends AbstractRequest
         $this->reportId = $reportId;
     }
 
-    public function addWord(string $word, string $language = 'en_GB', bool $caseSensitive = false): self
+    public function addWord(string $word, string $language = 'ANY', bool $caseSensitive = false): self
     {
         $this->method = 'POST';
 
