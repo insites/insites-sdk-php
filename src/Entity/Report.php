@@ -13,6 +13,11 @@ class Report
         return $report;
     }
 
+    public function toArray(): array
+    {
+        return $this->data;
+    }
+
     public function getReportId(): string
     {
         return $this->data['report_id'];
